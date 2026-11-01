@@ -1,0 +1,83 @@
+{
+  "example": true,
+  "note": "Example portfolio. Press \"Edit\" on the portfolio panel to enter your own holdings; the example flag is cleared automatically or set \"example\" to false. Tickers use Yahoo Finance format. Without qty, holdings are equally weighted.",
+  "industries": [
+    {
+      "id": "semis",
+      "label": "반도체",
+      "labelEn": "Semiconductors",
+      "benchmark": "^SOX",
+      "en": [
+        "semiconductor industry",
+        "memory chip HBM demand"
+      ],
+      "ko": []
+    },
+    {
+      "id": "auto",
+      "label": "자동차·전기차",
+      "labelEn": "Autos & EVs",
+      "benchmark": "CARZ",
+      "en": [
+        "automaker EV sales",
+        "auto tariffs"
+      ],
+      "ko": []
+    },
+    {
+      "id": "software",
+      "label": "소프트웨어·AI",
+      "labelEn": "Software & AI",
+      "benchmark": "IGV",
+      "en": [
+        "enterprise software AI spending",
+        "cloud computing demand"
+      ],
+      "ko": []
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "NVDA",
+      "name": "엔비디아",
+      "nameEn": "NVIDIA",
+      "industry": "semis",
+      "qty": 10
+    },
+    {
+      "symbol": "TSM",
+      "name": "TSMC",
+      "nameEn": "TSMC",
+      "industry": "semis",
+      "qty": 5
+    },
+    {
+      "symbol": "TSLA",
+      "name": "테슬라",
+      "nameEn": "Tesla",
+      "industry": "auto",
+      "qty": 3
+    },
+    {
+      "symbol": "TM",
+      "name": "도요타",
+      "nameEn": "Toyota",
+      "industry": "auto",
+      "qty": 4
+    },
+    {
+      "symbol": "MSFT",
+      "name": "마이크로소프트",
+      "nameEn": "Microsoft",
+      "industry": "software",
+      "qty": 4
+    },
+    {
+      "symbol": "ADBE",
+      "name": "어도비",
+      "nameEn": "Adobe",
+      "industry": "software",
+      "qty": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# 비밀값·로컬 데이터
+.env
+data/
+reports/
+
+# 의존성·빌드 산출물
+node_modules/
+.next/
+.venv/
+next-env.d.ts
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# 사용자 설정(프리셋에서 만들어진다)
+config/settings.json
+config/portfolio.json
+config/portfolio.json.bak
+config/*.tmp

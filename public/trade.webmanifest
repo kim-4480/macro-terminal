@@ -1,0 +1,14 @@
+{
+  "name": "Macro Paper Trading",
+  "short_name": "Paper trading",
+  "start_url": "/trade",
+  "scope": "/trade",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "/trade-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/trade-icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
